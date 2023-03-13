@@ -1,0 +1,220 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  
+}
+body,html{
+  overflow-x: hidden;
+   
+}
+
+nav {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+i{
+  color:rgb(107, 48, 107);
+}
+#grad1 {
+/*background-color: red; For browsers that do not support gradients */
+  background-image: linear-gradient(to right, blue , violet);
+}
+ #gradiant2 {
+    background-image: linear-gradient(to bottom, blue , violet);
+  } 
+.btn-close {
+    background-color:white;
+}
+
+
+.bg-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.multicircle {
+  width: 400px; 
+  height: 400px;
+}
+ .circle {
+  width: 18rem; 
+  height: 18rem;
+  border-radius: 50%;
+}
+.mobile {
+  height:150%;
+  position: relative;
+  bottom:35px;
+  left:30px; 
+} 
+.circletwo {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  margin-top:40px;
+  
+ } 
+.mobiletwo {
+  position: relative;
+    bottom:60px;
+    left:43px;
+   height:150%;
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  #startbootstrap {
+    text-align: center;
+    padding-bottom: 30px;
+    
+  }
+  .mobile {
+    height:125%;
+    position: relative;
+    bottom:35px;
+    left:5px; 
+  } 
+  .circletwo {
+    height: 20rem;
+    width: 20rem;
+  }
+  .mobiletwo {
+    position: relative;
+    left:1px;
+  }
+  .multicircle {
+    width: 350px; 
+    height: 350px;
+  }
+  .feature1 {
+    display:none;
+  }
+  .black{
+    display:block;
+  }
+  .black1 {
+    display:block;
+    position: relative;
+    bottom:50px;
+    }
+  }
+  
+@media only screen and (max-width:425px) {
+  #startbootstrap {
+    text-align: center;
+    padding-bottom: 50px;
+    
+  }
+  .mobile {
+    height:125%;
+    position: relative;
+    bottom:35px;
+    left:1px; 
+  } 
+  .mobiletwo {
+    position: relative;
+    left:1px;
+  }
+  .featuresleft{
+    padding-bottom: 80px;
+  }
+  .multicircle {
+    width: 250px; 
+    height: 250px;
+    /* text-align: center; */
+    position: relative;
+    right:15px;
+  }
+  #gradiant2{
+    background-image: none;
+  }
+  .feature1 {
+    display:none;
+    
+  }
+  .black1 {
+    position: relative;
+    bottom:50px;
+  }
+}
+@media only screen and (min-width:1024px) {
+
+.features2{
+  display:none;
+}
+.mobile2 {
+  height:190%;
+}
+}
+/*@media only screen and (max-width: 768px) and (min-width:425px) {
+  #startbootstrap {
+    height:950px;
+  }
+  .featuresleft{
+    padding-top: 35px;
+  
+  }
+ #features{
+    height:470px;
+   }
+}
+
+@media only screen and (max-width: 425px) {
+  #startbootstrap {
+    height:1150px;
+    padding-top:30px;
+  }
+  #features{
+   height:1250px;
+  }
+  .featuresleft{
+    height:400px;
+    padding-top: 30px;
+  }
+  .circletwo {
+    height: 10rem;
+  width: 10rem;
+  position: relative;
+  right:30px;
+  }
+  .mobiletwo {
+    height:300px;
+    bottom:230px;
+    left:15px;
+
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .startbootstrapright {
+    padding-top:70px;
+  }
+  /* #features{
+    height:500px;
+   } 
+   .featuresleft{
+    padding-top:50px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  #features{
+    height:500px;
+   }
+   .featuresleft{
+    padding-top:40px;
+  }
+  .startbootstrapleft {
+    padding:5px 85px 5px 85px;
+  }
+  .startbootstrapright {
+    padding-top:70px;
+  }
+}
+@media only screen and (min-width: 2560px) {
+  #startbootstrap {
+    height:550px;
+  }
+  .startbootstrapleft {
+    padding: 60px 120px 5px 120px;
+  }
+  .startbootstrapright {
+    padding-top:20px;
+  }
+} */
